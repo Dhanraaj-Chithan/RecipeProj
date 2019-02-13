@@ -1,0 +1,156 @@
+[debug] [2019-02-06T11:17:37.348Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T11:17:37.351Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dhanraaj Chithan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T11:17:37.352Z] CLI Version:   6.3.1
+[debug] [2019-02-06T11:17:37.352Z] Platform:      win32
+[debug] [2019-02-06T11:17:37.352Z] Node Version:  v11.6.0
+[debug] [2019-02-06T11:17:37.354Z] Time:          Wed Feb 06 2019 16:47:37 GMT+0530 (India Standard Time)
+[debug] [2019-02-06T11:17:37.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T11:17:37.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T11:17:37.369Z] > authorizing via signed-in user
+[debug] [2019-02-06T11:17:37.369Z] [iam] checking project receipe-lab for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T11:17:37.371Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/receipe-lab:testIamPermissions  
+
+[debug] [2019-02-06T11:17:39.777Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T11:17:39.780Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/receipe-lab  
+ 
+[debug] [2019-02-06T11:17:40.984Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'receipe-lab'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T11:17:41.003Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/receipe-lab/versions  
+
+[debug] [2019-02-06T11:17:43.492Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T11:17:43.492Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T11:17:44.648Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 11:17:21 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/receipe-lab/versions",
+        "path": "/v1beta1/sites/receipe-lab/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/receipe-lab/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
+[debug] [2019-02-06T12:19:05.338Z] ----------------------------------------------------------------------
+[debug] [2019-02-06T12:19:05.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dhanraaj Chithan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-02-06T12:19:05.341Z] CLI Version:   6.3.1
+[debug] [2019-02-06T12:19:05.341Z] Platform:      win32
+[debug] [2019-02-06T12:19:05.342Z] Node Version:  v11.6.0
+[debug] [2019-02-06T12:19:05.351Z] Time:          Wed Feb 06 2019 17:49:05 GMT+0530 (India Standard Time)
+[debug] [2019-02-06T12:19:05.351Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-06T12:19:05.364Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-06T12:19:05.364Z] > authorizing via signed-in user
+[debug] [2019-02-06T12:19:05.364Z] [iam] checking project receipe-lab for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-02-06T12:19:05.366Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-06T12:19:05.366Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-06T12:19:05.875Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T12:19:05.880Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/receipe-lab:testIamPermissions  
+
+[debug] [2019-02-06T12:19:07.403Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-06T12:19:07.404Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/receipe-lab  
+ 
+[debug] [2019-02-06T12:19:07.879Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'receipe-lab'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-02-06T12:19:07.892Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/receipe-lab/versions  
+
+[debug] [2019-02-06T12:19:09.736Z] <<< HTTP RESPONSE 500
+[debug] [2019-02-06T12:19:09.736Z] <<< HTTP RESPONSE BODY
+[error] 
+[error] Error: HTTP Error: 500, Internal error encountered.
+[debug] [2019-02-06T12:19:10.144Z] Error Context: {
+  "body": {
+    "error": {
+      "code": 500,
+      "message": "Internal error encountered.",
+      "status": "INTERNAL"
+    }
+  },
+  "response": {
+    "statusCode": 500,
+    "body": {
+      "error": {
+        "code": 500,
+        "message": "Internal error encountered.",
+        "status": "INTERNAL"
+      }
+    },
+    "headers": {
+      "vary": "X-Origin, Referer, Origin,Accept-Encoding",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Wed, 06 Feb 2019 12:18:47 GMT",
+      "server": "ESF",
+      "cache-control": "private",
+      "x-xss-protection": "1; mode=block",
+      "x-frame-options": "SAMEORIGIN",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "quic=\":443\"; ma=2592000; v=\"44,43,39\"",
+      "accept-ranges": "none",
+      "transfer-encoding": "chunked"
+    },
+    "request": {
+      "uri": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "firebasehosting.googleapis.com",
+        "port": 443,
+        "hostname": "firebasehosting.googleapis.com",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/v1beta1/sites/receipe-lab/versions",
+        "path": "/v1beta1/sites/receipe-lab/versions",
+        "href": "https://firebasehosting.googleapis.com/v1beta1/sites/receipe-lab/versions"
+      },
+      "method": "POST"
+    }
+  }
+}
