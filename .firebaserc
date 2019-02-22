@@ -1,5 +1,6 @@
 {
   "projects": {
-    "prod": "receipe-lab"
+    "prod": "receipe-lab",
+    "default": "receipe-lab"
   }
 }
